@@ -29,7 +29,7 @@ pd_min = pd_model[index]
 
 b_graph = v_min/pd_min
 print(b_graph)
-a_graph = b_graph/15.76
+a_graph = b_graph/15.76     # 15.76 is the first ionization energy of Argon
 print(a_graph)
 gamma = 1/(np.exp(a_graph*pd_min/2.72)-1)
 print(gamma)
